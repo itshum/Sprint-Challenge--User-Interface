@@ -71,19 +71,70 @@ p {
     margin: 0 auto;
 }
 
+.container about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*Navigation Style HERE */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 800px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    float: left;
+    display: block;
+    color: #4d4d4d;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    
+}
+
+.nav-links a:hover {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: underline;
+    
+}
+
+
+
+/*Top Content Style HERE */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 40px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
+    margin-top: 30px;
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 20px;  
 }
+
+
+
+
+
+/*Middle Content Style HERE */
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,16 +152,118 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box-1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box-2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-4 {
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-6 {
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-7 {
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-8 {
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-9 {
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-10 {
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Bottom Content Style HERE */
 
 .bottom-content {
     display: flex;
@@ -120,22 +273,24 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    margin: 1%;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 
+/*Footer Content Style HERE */
+
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    width: 800px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +298,118 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    margin: 0px 20px;
 }
+
+footer nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+/*About Page Content Style HERE */
+
+
+/*TOP SECTION Content Style HERE */
+
+.banner-container .banner-text{
+    margin: 3%;
+}
+
+
+/* MIDDLE SECTION Content Style HERE */
+
+#middle-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.service {
+    text-align: left;
+    width:50%;
+    padding: 10px;
+}
+
+.service .service-text {
+    padding: 10px;
+}
+
+hr {
+    width: 90%;
+}
+
+.learn-button button {
+    border:solid black 1px;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px 5px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.learn-button button:hover {
+    border:solid black 1px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 5px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+/*Bottom Content  Style HERE */
+
+/*Contact Page Style HERE */
+
+form {
+    /* Center the form on the page */
+    margin:50px auto;
+    width: 450px;
+    height: 300px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    background-color: #999;
+    
+}
+
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+form .button {
+    padding-left: 90px; 
+    margin-left: .5em;
+}
+
+/*Product Page Style HERE */
